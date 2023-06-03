@@ -14,6 +14,7 @@
 		491D60592A1FDBE900F72541 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D60582A1FDBE900F72541 /* MainPage.swift */; };
 		491D605B2A1FDBFC00F72541 /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D605A2A1FDBFC00F72541 /* GamePage.swift */; };
 		491D605D2A1FDC0B00F72541 /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D605C2A1FDC0B00F72541 /* ResultPage.swift */; };
+		492F8C662A2BB63A003FEA3D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8C652A2BB63A003FEA3D /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		491D60582A1FDBE900F72541 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		491D605A2A1FDBFC00F72541 /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
 		491D605C2A1FDC0B00F72541 /* ResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPage.swift; sourceTree = "<group>"; };
+		492F8C652A2BB63A003FEA3D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				491D60582A1FDBE900F72541 /* MainPage.swift */,
 				491D605A2A1FDBFC00F72541 /* GamePage.swift */,
 				491D605C2A1FDC0B00F72541 /* ResultPage.swift */,
+				492F8C652A2BB63A003FEA3D /* Person.swift */,
 			);
 			path = "SwiftUI-BasicNavigation-Sample";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492F8C662A2BB63A003FEA3D /* Person.swift in Sources */,
 				491D605B2A1FDBFC00F72541 /* GamePage.swift in Sources */,
 				491D604D2A1FDBC000F72541 /* ContentView.swift in Sources */,
 				491D605D2A1FDC0B00F72541 /* ResultPage.swift in Sources */,

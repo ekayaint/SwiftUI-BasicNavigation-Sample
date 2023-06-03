@@ -9,15 +9,23 @@ import SwiftUI
 
 struct GamePage: View {
     @Environment(\.presentationMode) var pm
+    @State private var resultPageTransition = false
+    
+    var p = Person()
+    
     var body: some View {
         VStack(spacing: 100) {
+            Text("\(p.name!) - \(p.age!) - \(p.height!)")
             Button("Finished") {
-                
+                resultPageTransition = true
             }
             Button("Back") {
                 pm.wrappedValue.dismiss()
             }
         }.navigationTitle("Game Page")
+            .sheet(isPresented: $resultPageTransition) {
+                ResultPage()
+            }
     }
 }
 

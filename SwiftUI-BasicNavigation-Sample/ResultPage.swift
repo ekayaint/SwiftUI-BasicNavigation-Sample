@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ResultPage: View {
+    @Environment(\.presentationMode) var pm
     var body: some View {
-        VStack {
+        VStack ( spacing: 50) {
+            Text("Result Screen").font(.system(size: 35))
             Button("Close") {
-                
+                pm.wrappedValue.dismiss()
             }
         }
     }
