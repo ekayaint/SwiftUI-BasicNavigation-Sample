@@ -15,6 +15,10 @@
 		491D605B2A1FDBFC00F72541 /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D605A2A1FDBFC00F72541 /* GamePage.swift */; };
 		491D605D2A1FDC0B00F72541 /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D605C2A1FDC0B00F72541 /* ResultPage.swift */; };
 		492F8C662A2BB63A003FEA3D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8C652A2BB63A003FEA3D /* Person.swift */; };
+		492F8C6A2A2F4F30003FEA3D /* NavPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8C692A2F4F30003FEA3D /* NavPage.swift */; };
+		492F8C862A306138003FEA3D /* TabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8C852A306138003FEA3D /* TabPage.swift */; };
+		492F8C882A30619B003FEA3D /* TabHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8C872A30619B003FEA3D /* TabHomePage.swift */; };
+		492F8C8A2A3061B2003FEA3D /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8C892A3061B2003FEA3D /* SettingsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		491D605A2A1FDBFC00F72541 /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
 		491D605C2A1FDC0B00F72541 /* ResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPage.swift; sourceTree = "<group>"; };
 		492F8C652A2BB63A003FEA3D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		492F8C692A2F4F30003FEA3D /* NavPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavPage.swift; sourceTree = "<group>"; };
+		492F8C852A306138003FEA3D /* TabPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
+		492F8C872A30619B003FEA3D /* TabHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHomePage.swift; sourceTree = "<group>"; };
+		492F8C892A3061B2003FEA3D /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,10 @@
 				491D605A2A1FDBFC00F72541 /* GamePage.swift */,
 				491D605C2A1FDC0B00F72541 /* ResultPage.swift */,
 				492F8C652A2BB63A003FEA3D /* Person.swift */,
+				492F8C692A2F4F30003FEA3D /* NavPage.swift */,
+				492F8C852A306138003FEA3D /* TabPage.swift */,
+				492F8C872A30619B003FEA3D /* TabHomePage.swift */,
+				492F8C892A3061B2003FEA3D /* SettingsPage.swift */,
 			);
 			path = "SwiftUI-BasicNavigation-Sample";
 			sourceTree = "<group>";
@@ -152,9 +164,13 @@
 				492F8C662A2BB63A003FEA3D /* Person.swift in Sources */,
 				491D605B2A1FDBFC00F72541 /* GamePage.swift in Sources */,
 				491D604D2A1FDBC000F72541 /* ContentView.swift in Sources */,
+				492F8C882A30619B003FEA3D /* TabHomePage.swift in Sources */,
 				491D605D2A1FDC0B00F72541 /* ResultPage.swift in Sources */,
+				492F8C862A306138003FEA3D /* TabPage.swift in Sources */,
 				491D604B2A1FDBC000F72541 /* SwiftUI_BasicNavigation_SampleApp.swift in Sources */,
 				491D60592A1FDBE900F72541 /* MainPage.swift in Sources */,
+				492F8C6A2A2F4F30003FEA3D /* NavPage.swift in Sources */,
+				492F8C8A2A3061B2003FEA3D /* SettingsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
